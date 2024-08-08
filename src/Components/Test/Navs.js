@@ -2,6 +2,7 @@ import './NavBar.css'
 
 import { FaBars, FaTimes } from "react-icons/fa";
 
+import { Home } from '../Home';
 import { useRef } from "react";
 
 export function Navs() {
@@ -14,6 +15,7 @@ export function Navs() {
 	};
 
 	return (
+		<>
 		<header>
 			<h3 className='logo'>LOGO</h3>
 			<nav ref={navRef}>
@@ -41,6 +43,9 @@ export function Navs() {
 				<FaBars />
 			</button>
 		</header>
+		<Home></Home>
+		</>
+		
 	);
 }
 
