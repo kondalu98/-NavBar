@@ -1,0 +1,55 @@
+.hero{
+    margin: 0px 120px;
+    margin-top: 200px;
+}
+.text h3{
+    color:#fff;
+    font-size: 50px;
+    font-weight: 300px;
+    line-height: 100px;
+}
+.text p{
+color:#fff;
+font-size: 20px;
+font-weight: 150;
+line-height: px;
+}
+/* src/Components/Explore.css */
+
+.explore {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    gap: 10px; /* Space between text and image */
+    width: fit-content; /* Width adjusts to content size */
+    margin-top: 30px; /* Space above the element */
+    padding: 10px 20px; /* Padding inside the element */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: 2px solid white; /* Border color */
+     /* Light background */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  
+  .explore:hover {
+    background-color: rgba(35, 196, 245, 0.119); /* Slightly darker background on hover */
+    transform: scale(1.05); /* Slightly enlarge the element */
+  }
+  
+  .explore p {
+    color:white; /* Text color */
+    font-size: 18px; /* Font size */
+    font-weight: 600; /* Font weight */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .explore img {
+    width: 24px; /* Adjust based on the size of your arrow image */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Smooth transition for the icon movement */
+  }
+  
+  /* Icon movement on hover */
+  .explore:hover img {
+    transform: translateX(10px); /* Move the icon to the right */
+  }
+  
