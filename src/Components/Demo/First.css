@@ -1,0 +1,50 @@
+.bgi {
+ 
+    position: relative;
+    width: 100%;
+    height: 80vh; /* Adjust as needed */
+    overflow: hidden;
+  
+  }
+  .imgs {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    ; /* Ensure the image covers the container */
+  }
+  .inf {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: white;
+    max-width: 75%;
+    font-family: Arial, sans-serif;
+    z-index: 2; /* Ensure text is on top of the image */
+  }
+  .inf h3 {
+    font-size: 60px;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .inf p {
+    font-size: calc(1rem + 0.5vw);
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  
+  @media (max-width: 768px) {
+    .inf {
+      max-width: 80%;
+      left: 10%;
+    }
+  
+    .inf h3 {
+      font-size: calc(1.5rem + 1vw);
+    }
+  
+    .inf p {
+      font-size: calc(0.9rem + 0.5vw);
+    }
+  }
