@@ -1,10 +1,12 @@
 .bgs {
+    position: relative;
     width: 100%;
     height: 100%;
     background-color: black;
 }
 
 .grid-containers {
+    padding-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns for first line */
     gap: 30px;
@@ -17,6 +19,7 @@
 }
 
 .half-width {
+   
     width: 100%; /* Adjusted width to create a gap between fields */
     padding: 8px;
     font-size: 1rem;

@@ -1,17 +1,17 @@
-import { Contacs } from '../ContactPages/Contacs'
-import { First } from './First'
-import { Middle } from './Middle'
-import React from 'react'
+import "./Main.css";
 
-function Main() {
+import { Contacs, ContactFooter } from "../ContactPages/ContactFotter";
+
+import { First } from "./First";
+import { Middle } from "./Middle";
+import React from "react";
+
+export function Main() {
   return (
-    <div>
-      <First>
-      </First>
+    <div className="dt">
+      <First></First>
       <Middle></Middle>
-      <Contacs></Contacs>
+      <ContactFooter></ContactFooter>
     </div>
-  )
+  );
 }
-
-export default Main

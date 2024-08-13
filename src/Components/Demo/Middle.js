@@ -50,11 +50,11 @@ export function Middle() {
             </div>
             <div className="form-group">
               <label htmlFor="email">Company Name</label>
-              <input type="email" id="email" placeholder="Email" className="full-width" />
+              <input type="email" id="email" placeholder="Company Name" className="full-width" />
             </div>
             <div className="form-group">
               <label htmlFor="email">Cell PhoneNumber</label>
-              <input type="email" id="email" placeholder="Email" className="full-width" />
+              <input type="email" id="email" placeholder="Cell PhoneNumber" className="full-width" />
             </div>
 
   

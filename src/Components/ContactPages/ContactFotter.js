@@ -1,4 +1,4 @@
-import "./Conta.css";
+import "./ContactFooter.css";
 
 import React from "react";
 import { fadeIn } from "../Test/Variants";
@@ -7,7 +7,7 @@ import one from "../ContactPages/1.jpg";
 import three from "../ContactPages/2.jpg";
 import two from "../ContactPages/4.jpg";
 
-export function Contacs() {
+export function ContactFooter() {
   return (
 
     <div className="bgsm">
@@ -24,7 +24,7 @@ export function Contacs() {
         <img src={two} className="one"></img>
       </motion.div>
 
-      <div class="grid-contain">
+      <div className="grid-contain">
 
         <motion.div
           variants={fadeIn("up", 0.2)}
@@ -32,8 +32,8 @@ export function Contacs() {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.2 }}
 
-          class="main-column">
-          <div class="main-content">
+          className="main-column">
+          <div className="main-content">
             <h1>We are Animech</h1>
             <p>
               We are Animech – a leader in advanced visualization tools that
@@ -59,7 +59,7 @@ export function Contacs() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.5 }}
-          class="sub-columns">
+          className="sub-columns">
           <div class="sub-column">
 
             <h3>This is us.</h3>
@@ -68,14 +68,14 @@ export function Contacs() {
             <p>Articles</p>
             <p>Contact us</p>
           </div>
-          <div class="sub-column">
+          <div className="sub-column">
             <h3>Work</h3>
             <p>Elfa</p>
             <p>Cytia</p>
             <p>volkswegan</p>
             <p>KIA</p>
           </div>
-          <div class="sub-column">
+          <div className="sub-column">
             <h3>Products</h3>
             <p>Anipart</p>
             <p>Aniconfigrator</p>

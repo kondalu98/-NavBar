@@ -1,9 +1,7 @@
 import './Contact.css';
 
-import {Grid} from './Grid';
 import  { Hero } from './Hero';
 import video from './video_2.mp4'
-import videoSource from '../ContactPages/video_1.mp4';
 
 export function Contact()
 {

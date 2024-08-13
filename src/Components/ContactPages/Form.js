@@ -10,7 +10,9 @@ export const Form = () => {
           {/* First Line: First Name and Last Name */}
           <div className="grid-item">
             <label htmlFor="first-name">First Name</label>
-            <input type="text" id="first-name" placeholder="First Name" className="full-width first-name" />
+            <input type="text" id="first-name" placeholder="First Name" className="full-width" />
+            </div>
+            <div className='grid-item'>
             <label htmlFor="last-name">Last Name</label>
             <input type="text" id="last-name" placeholder="Last Name" className="full-width" />
           </div>
