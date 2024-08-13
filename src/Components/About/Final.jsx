@@ -6,6 +6,7 @@ import { Carousel } from "./Carousel";
 import { ContactFooter } from "../ContactPages/ContactFotter";
 import { Layer } from "./Layer";
 import { Middles } from "./Middles";
+import { NavBars } from "../NavBar/NavBars";
 import React from "react";
 import { SecondCard } from "./SecondCard";
 import { SecondLayer } from "./SecondLayer";
@@ -14,6 +15,7 @@ import { Videos } from "./Videos";
 export function Final() {
   return (
     <div>
+    <NavBars/>
       <BackGround></BackGround>
       <div className="css">
         <Middles></Middles>
