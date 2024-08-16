@@ -19,9 +19,9 @@ export function ContactFooter() {
 
 
         className="clients">
-        <img src={one} className="one"></img>
-        <img src={two} className="one"></img>
-        <img src={two} className="one"></img>
+        <img src={one} className="five"></img>
+        <img src={two} className="five"></img>
+        <img src={two} className="five"></img>
       </motion.div>
 
       <div className="grid-contain">

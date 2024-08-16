@@ -6,7 +6,6 @@ import React from 'react'
 function Project_Final() {
   return (
     <div className="container-fluid">
-    <NavBars></NavBars>
       <ProjectVideo></ProjectVideo>
       <MainCards></MainCards>
     </div>

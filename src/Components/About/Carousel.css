@@ -1,11 +1,11 @@
-.carouselbackground {
+.carousel-out-two .carouselbackground {
     background-color: black;
     width: 100%;
     height: 100%;
   }
   
   /* General Carousel Styles */
-  .carousel {
+.carousel-out-two .carousel {
     padding-right: 130px;
     padding-left: 130px;
     position: relative;
@@ -19,7 +19,7 @@
     align-items: center;
   }
   
-  .carousel-inner {
+.carousel-two .carousel-inner {
     gap: 30px;
     display: flex;
     justify-content: center;
@@ -28,19 +28,19 @@
     height: 100%;
   }
   
-  .carousel-inner img {
+  .carousel-two .carousel-inner img {
     width: 35%;
     height: 80%;
     transition: opacity 0.5s ease, transform 0.5s ease;
     cursor: pointer;
   }
   
-  .carousel-inner img:hover {
+  .carousel-two .carousel-inner img:hover {
     transform: scale(1.05); /* Slightly enlarge the image on hover */
     opacity: 1;
   }
   
-  .carousel-inner img.active {
+  .carousel-two .carousel-inner img.active {
     opacity: 1;
   }
   
@@ -72,11 +72,11 @@
       gap: 20px;
     }
   
-    .carousel-inner {
+    .carousel-two .carousel-inner {
       gap: 20px;
     }
   
-    .carousel-inner img {
+    .carousel-two .carousel-inner img {
       width: 50%; /* Make images larger on tablets */
       height: 70%;
     }
@@ -90,12 +90,12 @@
       gap: 10px;
     }
   
-    .carousel-inner {
+    .carousel-two .carousel-inner {
       flex-direction: column; /* Stack images vertically on mobile */
       gap: 10px;
     }
   
-    .carousel-inner img {
+    .carousel-two .carousel-inner img {
       width: 90%; /* Make images full width on mobile */
       height: auto; /* Adjust height for mobile */
     }

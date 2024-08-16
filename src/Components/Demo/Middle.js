@@ -56,11 +56,6 @@ export function Middle() {
               <label htmlFor="email">Cell PhoneNumber</label>
               <input type="email" id="email" placeholder="Cell PhoneNumber" className="full-width" />
             </div>
-
-  
-
-
-
             {/* Fourth Line: Register Button */}
             <div className="form-group">
               <button type="submit" className="full-widths">Register</button>

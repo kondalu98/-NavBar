@@ -51,7 +51,12 @@
     margin-right: 0;
   }
   
-  .full-width, .full-widths {
+  .full-width {
+    width: 100%;
+    padding: 10px;
+    
+  }
+  .full-widths{
     width: 100%;
     padding: 10px;
   }

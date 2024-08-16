@@ -35,8 +35,7 @@ export const Form = () => {
           </div>
         </div>
       </form>
-      &nbsp
-      &nbsp
+     
     </div>
   );
 };

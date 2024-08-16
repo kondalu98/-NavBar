@@ -8,7 +8,7 @@ import React from 'react'
 export function MainContact() {
   return (
     <div>
-    <NavBars></NavBars>
+    
       <Contact></Contact>
       <Form></Form>
       <Grid></Grid>

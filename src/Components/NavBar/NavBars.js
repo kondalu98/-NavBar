@@ -19,7 +19,7 @@ export function NavBars() {
           <h3 className="logo">LOGO</h3>
           <nav ref={navRef}>
             <ul>
-              <Link to="/product">
+              <Link to="/Home">
                 <li>
                   <a href="/#">PRODUCT</a>
                 </li>

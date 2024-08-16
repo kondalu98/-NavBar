@@ -21,8 +21,8 @@ export function Carousel() {
   const getNextIndex = () => (currentIndex === images.length - 1 ? 0 : currentIndex + 1);
 
   return (
-    <div className="carousel carouselbackground">
-      <div className="carousel-inner">
+    <div className="carousel-out-two carousel carouselbackground">
+      <div className="carousel-two carousel-inner">
         <img
           src={images[getPrevIndex()]}
           alt="Previous"

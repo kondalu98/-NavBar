@@ -15,11 +15,9 @@ import { Videos } from "./Videos";
 export function Final() {
   return (
     <div>
-    <NavBars/>
       <BackGround></BackGround>
       <div className="css">
         <Middles></Middles>
-        <Carousel></Carousel>
         <Layer></Layer>
         <Cards></Cards>
         <Videos></Videos>
